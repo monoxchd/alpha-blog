@@ -12,6 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require popper.min
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+})
